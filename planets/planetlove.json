@@ -1,0 +1,33 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"starSystem": "bismuthdistrict.9YearOldSystem",
+	"name" : "Planet Love",
+	"Base": {
+		"surfaceSize": 200,
+		"surfaceGravity": 10,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"primaryBody": "Golden Sun",
+		"semiMajorAxis": 13000,
+		"trueAnomaly": 234,
+		"siderealPeriod": 6,
+		"tint": {
+			"r": 224,
+			"g": 114,
+			"b": 190
+		}
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/assetbundle/9yearold",
+       			"path": "Assets/planetlove.prefab",
+				"scale": 20000,
+				"keepLoaded": true,
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 0, "y": 0, "z": 90}
+			}
+		]
+	}
+}

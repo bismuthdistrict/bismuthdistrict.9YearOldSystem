@@ -1,0 +1,68 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"starSystem": "bismuthdistrict.9YearOldSystem",
+	"name" : "Laser Bead Light Show",
+	"Base": {
+		"surfaceSize": 200,
+		"surfaceGravity": 10,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"primaryBody": "Golden Sun",
+		"semiMajorAxis": 7000,
+		"siderealPeriod": 5,
+		"tint": {
+			"r": 129,
+			"g": 62,
+			"b": 168
+		}
+	},
+	"HeightMap": {
+		"textureMap": "planets/assets/lasercolor.png",
+		"heightMap": "planets/assets/laserheight.png",
+		"minHeight": 170,
+		"maxHeight": 230
+	},
+	"Spawn": {
+		"shipSpawn": {
+			"position": {
+				"x": 0,
+				"y": 0,
+				"z": 240
+			}
+		}
+	},
+	"Atmosphere": {
+		"size": 240,
+		"atmosphereTint": {
+			"r": 122,
+			"g": 50,
+			"b": 171
+		},
+		"hasOxygen": true
+	},
+	"Props": {
+		"geysers": [
+			{
+				"position": {"x": 0.2865207, "y": 221.0024, "z": -0.649223},
+				"tint": {
+					"r": 224,
+					"g": 128,
+					"b": 25
+				},
+				"inactiveDuration": 0,
+				"activeDuration": 1
+			},
+			{
+				"position": {"x": -0.1303337, "y": -220.8377, "z": 0.6807015},
+				"tint": {
+					"r": 242,
+					"g": 225,
+					"b": 70
+				},
+				"inactiveDuration": 0,
+				"activeDuration": 1
+			}
+		]
+	}
+}

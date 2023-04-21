@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"starSystem": "bismuthdistrict.9YearOldSystem",
+	"name" : "The Bullet",
+	"Base": {
+		"surfaceSize": 50,
+		"surfaceGravity": 4,
+		"hasMapMarker": true,
+		"hasCometTail": true
+	},
+	"Orbit": {
+		"primaryBody": "Golden Sun",
+		"semiMajorAxis": 11000,
+		"eccentricity": 0.6,
+		"isTidallyLocked": true,
+		"tint": {
+			"r": 127,
+			"g": 128,
+			"b": 135
+		}
+	},
+	"HeightMap": {
+		"textureMap": "planets/assets/bulletcolor.png",
+		"heightMap": "planets/assets/bulletheight.png",
+		"minHeight": 50,
+		"maxHeight": 90
+	}
+}

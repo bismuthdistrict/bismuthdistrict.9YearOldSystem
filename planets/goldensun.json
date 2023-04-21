@@ -1,0 +1,34 @@
+{
+  "name": "Golden Sun",
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "starSystem": "bismuthdistrict.9YearOldSystem",
+  "Base": {
+    "centerOfSolarSystem": true,
+    "surfaceSize": 2000,
+    "surfaceGravity": 100,
+    "gravityFallOff": "inverseSquared"
+  },
+  "Star": {
+    "size": 2000,
+    "curve": [
+			{"time":0, "value": 1},
+			{"time":22, "value": 1.5}
+    ],
+    "endTint": {
+      "r": 184,
+      "g": 106,
+      "b": 29,
+      "a": 255
+    },
+    "tint": {
+      "r": 207,
+      "g": 184,
+      "b": 54,
+      "a": 255
+    },
+    "supernovaSpeed": 1000
+  },
+  "Orbit": {
+    "isStatic": true
+  }
+}

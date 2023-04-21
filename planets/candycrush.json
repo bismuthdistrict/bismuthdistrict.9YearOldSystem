@@ -1,0 +1,35 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"starSystem": "bismuthdistrict.9YearOldSystem",
+	"name" : "Candy Crush",
+	"Base": {
+		"surfaceSize": 270,
+		"surfaceGravity": 14,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"primaryBody": "Golden Sun",
+		"semiMajorAxis": 10000,
+		"trueAnomaly": 173,
+		"siderealPeriod": 4,
+		"tint": {
+			"r": 209,
+			"g": 73,
+			"b": 132
+		}
+	},
+	"HeightMap": {
+		"textureMap": "planets/assets/candycolor.png",
+		"heightMap": "planets/assets/candyheight.png",
+		"minHeight": 240,
+		"maxHeight": 300
+	},
+	"Atmosphere": {
+		"size": 310,
+		"atmosphereTint": {
+			"r": 207,
+			"g": 72,
+			"b": 128
+		}
+	}
+}

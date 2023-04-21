@@ -1,9 +1,9 @@
 {
   "filename": "NewHorizonsConfig.dll",
-  "author": "[your name]",
-  "name": "[your readable mod name]",
-  "uniqueName": "[your name].[your unique mod ID]",
-  "version": "0.0.0",
+  "author": "bismuthdistrict",
+  "name": "9 Year Old System",
+  "uniqueName": "bismuthdistrict.9YearOldSystem",
+  "version": "0.1.0",
   "owmlVersion": "2.7.2",
   "dependencies": [ "xen.NewHorizons" ]
 }
